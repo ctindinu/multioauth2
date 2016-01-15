@@ -10,8 +10,8 @@
         "access_token"
     ],
 
-    "dist": {
-      "url": "git@bitbucket.org:viable/multioauth2.git",
+    "source": {
+      "url": "https://bitbucket.org/viable/multioauth2.git",
       "type": "git"
 
     },
