@@ -30,7 +30,6 @@ class MultiOAuth2ServiceProvider extends ServiceProvider {
    */
   public function register() {
 
-    require __DIR__ . "/../vendor/autoload.php";
 
     $this->app->register(FluentStorageServiceProvider::class);
     $this->app->register(OAuth2ServerServiceProvider::class);
@@ -41,8 +40,8 @@ class MultiOAuth2ServiceProvider extends ServiceProvider {
   }
 
   protected function setupConfig() {
-    $cors        = realpath(__DIR__.'/../vendor/barryvdh/laravel-cors/config/cors.php');
-    $oauth2      = realpath(__DIR__.'/../vendor/lucadegasperi/oauth2-server-laravel/config/oauth2.php');
+    $cors        = realpath(app_path() . '/../vendor/barryvdh/laravel-cors/config/cors.php');
+    $oauth2      = realpath(app_path() . '/../vendor/lucadegasperi/oauth2-server-laravel/config/oauth2.php');
     $multioauth2 = realpath(__DIR__.'/../config/multioauth2.php');
 
     $this->publishes([

@@ -9,7 +9,6 @@
     "access_token"
     ],
 
-    "homepage": "",
     "license": "MIT",
     "authors": [
       {
@@ -41,7 +40,7 @@
       "test": "phpunit"
     },
 
-    "minimum-stability": "2.0.0",
+    "minimum-stability": "stable",
 
     "extra": {
       "branch-alias": {
