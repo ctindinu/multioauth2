@@ -36,12 +36,17 @@
       "type": "git",
       "reference": "origin/v2"
     },
+    "autoload" : {
+      "psr-4" : {
+        "Viable\\MultiOAuth2\\": "src/"
+      }
+    },
 
     "scripts": {
       "test": "phpunit"
     },
 
-    "minimum-stability": "2.0.0",
+    "minimum-stability": "stable",
 
     "extra": {
       "branch-alias": {
