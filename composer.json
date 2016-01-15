@@ -12,7 +12,8 @@
 
     "source": {
       "url": "https://bitbucket.org/viable/multioauth2.git",
-      "type": "git"
+      "type": "git",
+      "references": "origin/v2"
 
     },
     "homepage": "",
