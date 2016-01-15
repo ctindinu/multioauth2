@@ -1,12 +1,21 @@
 {
     "name": "Viable/MultiOAuth2",
     "description": "A package that combines oauth2, cors requests  and auth on multiple tables",
+    "version" : "2.0.0",
+    "type" : "Laravel5.2-plugin",
+
     "keywords": [
         "oauth2",
         "multi_table",
         "access_token"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+
+    "dist": {
+      "url": "git@bitbucket.org:viable/multioauth2.git",
+      "type": "git"
+
+    },
+    "homepage": "",
     "license": "MIT",
     "authors": [
         {
