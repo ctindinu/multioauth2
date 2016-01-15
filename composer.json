@@ -14,7 +14,6 @@
       "url": "https://bitbucket.org/viable/multioauth2.git",
       "type": "git",
       "reference": "origin/v2"
-
     },
     "homepage": "",
     "license": "MIT",
@@ -40,6 +39,7 @@
     "scripts": {
         "test": "phpunit"
     },
+    "minimum-stability": "2.0.0",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
