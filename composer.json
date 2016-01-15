@@ -35,6 +35,11 @@
       "type": "git",
       "reference": "origin/v2"
     },
+    "autoload" : {
+      "psr-4" : {
+        "Viable\\MultiOAuth2\\": "src/"
+      }
+    },
 
     "scripts": {
       "test": "phpunit"
