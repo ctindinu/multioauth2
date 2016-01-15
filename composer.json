@@ -1,48 +1,51 @@
 {
-    "name": "Viable/MultiOAuth2",
-    "description": "A package that combines oauth2, cors requests  and auth on multiple tables",
-    "version" : "2.0.0",
-    "type" : "Laravel5.2-plugin",
-
-    "keywords": [
-        "oauth2",
-        "multi_table",
-        "access_token"
+  "name": "Viable/MultiOAuth2",
+  "description": "A package that combines oauth2, cors requests  and auth on multiple tables",
+  "version" : "2.0.0",
+  "type" : "Laravel5.2-plugin",
+  "keywords": [
+    "oauth2",
+    "multi_table",
+    "access_token"
     ],
+
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Viorel Radusi",
+        "email": "viorel@viable.is",
+        "homepage": "http://viablelabs.ch/",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+      "illuminate/support": "~5.1",
+      "lucadegasperi/oauth2-server-laravel": "5.1.*",
+      "barryvdh/laravel-cors": "0.7.x",
+      "php" : ">=5.3.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit" : "4.*",
+      "scrutinizer/ocular": "~1.1",
+      "squizlabs/php_codesniffer": "~2.3"
+    },
 
     "source": {
       "url": "https://bitbucket.org/viablelabs/multioauth2",
       "type": "git",
       "reference": "origin/v2"
     },
-    "homepage": "",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Viorel Radusi",
-            "email": "viorel@viable.is",
-            "homepage": "http://viablelabs.ch/",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "illuminate/support": "~5.1",
-        "lucadegasperi/oauth2-server-laravel": "5.1.*",
-        "barryvdh/laravel-cors": "0.7.x",
-        "php" : ">=5.3.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit" : "4.*",
-        "scrutinizer/ocular": "~1.1",
-        "squizlabs/php_codesniffer": "~2.3"
-    },
+
     "scripts": {
-        "test": "phpunit"
+      "test": "phpunit"
     },
+
     "minimum-stability": "2.0.0",
+
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
+      "branch-alias": {
+        "dev-master": "1.0-dev"
+      }
     }
 }
