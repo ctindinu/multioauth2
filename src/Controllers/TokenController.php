@@ -21,7 +21,7 @@ class TokenController extends BaseController {
       $token['access_token']  = "Bearer " . $token['access_token'];
 
     }catch (Exception $e) {
-      return response($e->getMessage(), 403);
+      return response(['errors' => ['message' => $e->getMessage() ]], 403);
     }
 
 
