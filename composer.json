@@ -29,11 +29,7 @@
     "squizlabs/php_codesniffer": "~2.3"
   },
 
-  "source": {
-    "url": "https://bitbucket.org/viablelabs/multioauth2",
-    "type": "git",
-    "reference": "origin/v2"
-  },
+ 
   "autoload" : {
     "psr-4" : {
       "Viable\\MultiOAuth2\\": "src/"
