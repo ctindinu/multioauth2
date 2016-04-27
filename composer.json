@@ -1,5 +1,5 @@
 {
-  "name": "Viable/MultiOAuth2",
+  "name": "viable/multi-oauth2",
   "description": "A package that combines oauth2, cors requests  and auth on multiple tables",
   "version" : "2.0.0",
   "type" : "Laravel5.2-plugin",
